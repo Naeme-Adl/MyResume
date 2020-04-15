@@ -1,0 +1,128 @@
+html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat' sans-serif;
+	background-image: url('../images/sky.jpg');
+	background-color: #87cbf7;
+	background-size: cover;
+}
+body{
+background-color: transparent;
+	
+}
+
+h1{
+	color: #0c3e5e;
+	text-align: center;
+	border-right:  4px solid #b9e2fc;
+	border-bottom: 4px solid #b9e2fc;
+	box-shadow: 4px 4px 5px #888888;
+	-moz-box-shadow:4px 4px 5px #888888;
+	cursor: pointer;
+	width: 400px
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+img{
+	float: left;
+}
+h2{
+	display: inline-block;
+}
+footer{
+	clear: both;
+   text-align: center;	
+}
+span{
+	font-size: 2em;
+}
+td, th{
+	display: flex;
+	justify-content: left;
+}
+#MyLoginPage{
+	background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.HeaderName{
+	display: flex;
+	justify-content: center;
+	}
+#registerForm{
+	border: solid 3px #ffff;
+	padding: 4px;
+	}
+.formClass{
+	padding: 4px;
+	}
+#infoBox{
+	font-family: 'Open Sans', sans-serif;
+}
+#slide1 img{
+	width: 100%;
+}
+.MyContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.MyContainer img{
+	width: 350px;
+	height:300px;
+	margin: 10px;
+	transition: transform 1s;
+}
+.MyContainer img:hover{
+	transform: scale(1.1);
+	}
+.MyContainer img:active{
+	transform: rotate(90deg);
+}
+.GalleryImage{
+
+}
+.navbar{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #789FB4;
+}
+#loginBox{
+	border: 1px gray solid;
+	
+}
+#loginBox  .row{
+	padding: 7px;
+	}
+#loginBox  .col{
+	align-items: center;
+}
+.fieldTitles{
+	font-size: 1em;
+	padding-right: 10px;
+
+}
+#loginBox input{
+	width: 80%;
+}
+.LoginButtons{
+	margin:  2em;
+	padding: 1rem 2rem;
+	border-radius: 300px;
+	text-transform: uppercase;
+	background-color: #9ca0b0;
+	border-color: #464c4d;
+}
+.LoginButtons:hover{
+	background-color: #4c5162;
+	border-color: #464c4d;
+	border-width: 2px;
+}
+.LoginButtonBox{
+	display: flex;
+	justify-content: center;
+	}
